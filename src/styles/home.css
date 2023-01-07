@@ -14,6 +14,7 @@
   color: #777;
 }
 
+
 .food__category {
   background: #df2020;
   text-align: center;
@@ -159,5 +160,10 @@
   }
   .why__choose-us {
     padding-top: 0 !important;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .heroimg{
+    padding-left:100px;
   }
 }
