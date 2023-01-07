@@ -22,7 +22,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start", "build": "react-scripts --openssl-legacy-provider build"
+    "start": "react-scripts --openssl-legacy-provider start", 
+    "build": "react-scripts --openssl-legacy-provider build"
   },
   "eslintConfig": {
     "extends": [
