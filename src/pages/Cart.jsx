@@ -19,16 +19,16 @@ const Cart = () => {
           <Row>
             <Col lg="12">
               {cartItems.length === 0 ? (
-                <h5 className="text-center">Your cart is empty</h5>
+                <h5 className="text-center">El carrito esta vacio</h5>
               ) : (
                 <table className="table table-bordered">
                   <thead>
                     <tr>
-                      <th>Image</th>
-                      <th>Product Title</th>
-                      <th>Price</th>
-                      <th>Quantity</th>
-                      <th>Delete</th>
+                      <th>Imagen</th>
+                      <th>Titulo del producto</th>
+                      <th>Precio</th>
+                      <th>Cantidad</th>
+                      <th>Eliminar</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -47,13 +47,13 @@ const Cart = () => {
                   Subtotal: $
                   <span className="cart__subtotal">{totalAmount}</span>
                 </h6>
-                <p>Taxes and shipping will calculate at checkout</p>
+                <p></p>
                 <div className="cart__page-btn">
                   <button className="addTOCart__btn me-4">
-                    <Link to="/foods">Continue Shopping</Link>
+                    <Link to="/foods">Continua Comprandp</Link>
                   </button>
                   <button className="addTOCart__btn">
-                    <Link to="/checkout">Proceed to checkout</Link>
+                    <Link to="/checkout">Terminar la compra</Link>
                   </button>
                 </div>
               </div>

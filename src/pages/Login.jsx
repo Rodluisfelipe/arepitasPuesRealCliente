@@ -13,8 +13,7 @@ const Login = () => {
   };
 
   return (
-    <Helmet title="Login">
-      <CommonSection title="Login" />
+    
       <section>
         <Container>
           <Row>
@@ -47,7 +46,7 @@ const Login = () => {
           </Row>
         </Container>
       </section>
-    </Helmet>
+    
   );
 };
 

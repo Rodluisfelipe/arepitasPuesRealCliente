@@ -53,7 +53,7 @@ const FoodDetails = () => {
   }, [product]);
 
   return (
-    <Helmet title="Product-details">
+    <Helmet title="Detalles del producto">
       <CommonSection title={title} />
 
       <section>
@@ -97,11 +97,11 @@ const FoodDetails = () => {
                   Price: <span>${price}</span>
                 </p>
                 <p className="category mb-5">
-                  Category: <span>{category}</span>
+                  Categoria: <span>{category}</span>
                 </p>
 
                 <button onClick={addItem} className="addTOCart__btn">
-                  Add to Cart
+                  Añadir
                 </button>
               </div>
             </Col>
@@ -112,13 +112,13 @@ const FoodDetails = () => {
                   className={` ${tab === "desc" ? "tab__active" : ""}`}
                   onClick={() => setTab("desc")}
                 >
-                  Description
+                  Descripcion
                 </h6>
                 <h6
                   className={` ${tab === "rev" ? "tab__active" : ""}`}
                   onClick={() => setTab("rev")}
                 >
-                  Review
+                  Reseña
                 </h6>
               </div>
 
@@ -134,11 +134,6 @@ const FoodDetails = () => {
                     <p className="feedback__text">great product</p>
                   </div>
 
-                  <div className="review">
-                    <p className="user__name mb-0">Jhon Doe</p>
-                    <p className="user__email">jhon1@gmail.com</p>
-                    <p className="feedback__text">great product</p>
-                  </div>
 
                   <div className="review">
                     <p className="user__name mb-0">Jhon Doe</p>
@@ -175,7 +170,7 @@ const FoodDetails = () => {
                     </div>
 
                     <button type="submit" className="addTOCart__btn">
-                      Submit
+                      Enviar
                     </button>
                   </form>
                 </div>
@@ -183,7 +178,7 @@ const FoodDetails = () => {
             </Col>
 
             <Col lg="12" className="mb-5 mt-4">
-              <h2 className="related__Product-title">You might also like</h2>
+              <h2 className="related__Product-title">Tambien te podria interesar</h2>
             </Col>
 
             {relatedProduct.map((item) => (

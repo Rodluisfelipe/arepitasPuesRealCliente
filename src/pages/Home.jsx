@@ -190,7 +190,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2>Popular Foods</h2>
+              <h2>Menu</h2>
             </Col>
 
             <Col lg="12">
@@ -254,7 +254,7 @@ const Home = () => {
             <Col lg="6" md="6">
               <div className="why__tasty-treat">
                 <h2 className="tasty__treat-title mb-4">
-                  Why <span>Tasty Treat?</span>
+                  ¿Por que <span>Arepitas Pues?</span>
                 </h2>
                 <p className="tasty__treat-desc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -302,30 +302,15 @@ const Home = () => {
         </Container>
       </section>
 
-      <section className="pt-0">
-        <Container>
-          <Row>
-            <Col lg="12" className="text-center mb-5 ">
-              <h2>Hot Pizza</h2>
-            </Col>
-
-            {hotPizza.map((item) => (
-              <Col lg="3" md="4" sm="6" xs="6" key={item.id}>
-                <ProductCard item={item} />
-              </Col>
-            ))}
-          </Row>
-        </Container>
-      </section>
 
       <section>
         <Container>
           <Row>
             <Col lg="6" md="6">
               <div className="testimonial ">
-                <h5 className="testimonial__subtitle mb-4">Testimonial</h5>
+                <h5 className="testimonial__subtitle mb-4">Testimonios</h5>
                 <h2 className="testimonial__title mb-4">
-                  What our <span>customers</span> are saying
+                  ¿Que estan <span>customers</span> diciendo de nosotros?
                 </h2>
                 <p className="testimonial__desc">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
