@@ -13,7 +13,7 @@ const Cart = () => {
   const totalAmount = useSelector((state) => state.cart.totalAmount);
   return (
     <Helmet title="Cart">
-      <CommonSection title="Your Cart" />
+      <CommonSection title="Carrito" />
       <section>
         <Container>
           <Row>
@@ -50,7 +50,7 @@ const Cart = () => {
                 <p></p>
                 <div className="cart__page-btn">
                   <button className="addTOCart__btn me-4">
-                    <Link to="/foods">Continua Comprandp</Link>
+                    <Link to="/foods">Continua Comprando</Link>
                   </button>
                   <button className="addTOCart__btn">
                     <Link to="/checkout">Terminar la compra</Link>

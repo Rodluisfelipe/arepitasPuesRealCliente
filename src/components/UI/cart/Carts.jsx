@@ -28,7 +28,7 @@ const Carts = () => {
 
         <div className="cart__item-list">
           {cartProducts.length === 0 ? (
-            <h6 className="text-center mt-5">No item added to the cart</h6>
+            <h6 className="text-center mt-5">No has añadido nada al carrito</h6>
           ) : (
             cartProducts.map((item, index) => (
               <CartItem item={item} key={index} />
@@ -42,7 +42,7 @@ const Carts = () => {
           </h6>
           <button>
             <Link to="/checkout" onClick={toggleCart}>
-              Checkout
+              Finalizar Compra
             </Link>
           </button>
         </div>

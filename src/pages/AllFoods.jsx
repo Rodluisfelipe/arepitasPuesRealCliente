@@ -42,7 +42,7 @@ const AllFoods = () => {
 
   return (
     <Helmet title="All-Foods">
-      <CommonSection title="All Foods" />
+      <CommonSection title="Todos los productos" />
 
       <section>
         <Container>
@@ -82,8 +82,8 @@ const AllFoods = () => {
               <ReactPaginate
                 pageCount={pageCount}
                 onPageChange={changePage}
-                previousLabel={"Prev"}
-                nextLabel={"Next"}
+                previousLabel={"Previo"}
+                nextLabel={"Siguiente"}
                 containerClassName=" paginationBttns "
               />
             </div>

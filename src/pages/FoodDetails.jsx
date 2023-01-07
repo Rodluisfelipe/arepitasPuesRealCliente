@@ -144,7 +144,7 @@ const FoodDetails = () => {
                     <div className="form__group">
                       <input
                         type="text"
-                        placeholder="Enter your name"
+                        placeholder="Ingresa tu nombre"
                         onChange={(e) => setEnteredName(e.target.value)}
                         required
                       />
@@ -153,7 +153,7 @@ const FoodDetails = () => {
                     <div className="form__group">
                       <input
                         type="text"
-                        placeholder="Enter your email"
+                        placeholder="Ingresa tu email"
                         onChange={(e) => setEnteredEmail(e.target.value)}
                         required
                       />

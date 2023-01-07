@@ -11,21 +11,21 @@ import "../../../styles/category.css";
 
 const categoryData = [
   {
-    display: "Arepas Rellenas",
+    display: "Para cada tiesto hay su arepa",
     imgUrl: categoryImg01,
   },
   {
-    display: "Pizza",
+    display: "¡Comete alguito!",
     imgUrl: categoryImg02,
   },
 
   {
-    display: "Asian Food",
+    display: "!Eh Ave Maria, esto esta muy bueno!",
     imgUrl: categoryImg03,
   },
 
   {
-    display: "Row Meat",
+    display: "Que rico que esta el arepazo",
     imgUrl: categoryImg04,
   },
 ];

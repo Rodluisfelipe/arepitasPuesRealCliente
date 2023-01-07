@@ -32,20 +32,20 @@ import TestimonialSlider from "../components/UI/slider/TestimonialSlider.jsx";
 
 const featureData = [
   {
-    title: "Quick Delivery",
+    title: "Variedad de Platos",
     imgUrl: featureImg01,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Contamos con una carta muy amplia de platos que se ajustan a todos los gustos.",
   },
 
   {
-    title: "Super Dine In",
+    title: "Servicio",
     imgUrl: featureImg02,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "El servicio es muy rapido y eficiente, te atenderemos de la mejor manera posible,ome!",
   },
   {
-    title: "Easy Pick Up",
+    title: "Experiencia Culinaria",
     imgUrl: featureImg03,
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, doloremque.",
+    desc: "Nuestros platos son elaborados con los mejores ingredientes y con la mejor experiencia culinaria.",
   },
 ];
 
@@ -105,8 +105,7 @@ const Home = () => {
                 </h1>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                  magni delectus tenetur autem, sint veritatis!
+                Tenemos opciones para todos los gustos, desde platos tradicionales hasta innovadoras creaciones culinarias. 
                 </p>
 
                 <div className="hero__btns d-flex align-items-center gap-5 mt-4">
@@ -124,7 +123,7 @@ const Home = () => {
                     <span className="shipping__icon">
                       <i class="ri-car-line"></i>
                     </span>{" "}
-                    Sin costo de Envio
+                    Bajo costo de envio
                   </p>
 
                   <p className=" d-flex align-items-center gap-2 ">
@@ -154,14 +153,13 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h5 className="feature__subtitle mb-4">What we serve</h5>
-              <h2 className="feature__title">Just sit back at home</h2>
+              <h5 className="feature__subtitle mb-4">¿Que ofrecemos?</h5>
+              <h2 className="feature__title">Contamos con ingredientes de</h2>
               <h2 className="feature__title">
-                we will <span>take care</span>
+                la mejor <span>calidad</span>
               </h2>
               <p className="mb-1 mt-4 feature__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                officiis?
+              ¡Ven y disfruta de nuestro encantador restaurante en el corazón de la ciudad! Nuestra cocina ofrece una amplia variedad de opciones, desde platos tradicionales hasta innovadoras creaciones culinarias. Nuestro equipo de chefs altamente capacitados se esfuerza por ofrecer siempre platos frescos y deliciosos utilizando ingredientes de alta calidad. 
               </p>
               <p className="feature__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -257,42 +255,18 @@ const Home = () => {
                   ¿Por que <span>Arepitas Pues?</span>
                 </h2>
                 <p className="tasty__treat-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dolorum, minus. Tempora reprehenderit a corporis velit,
-                  laboriosam vitae ullam, repellat illo sequi odio esse iste
-                  fugiat dolor, optio incidunt eligendi deleniti!
+                Hay muchas razones por las cuales elegir un restaurante local y paisa puede ser una excelente opción. En primer lugar, apoyar a negocios locales es importante para fomentar el crecimiento económico en la comunidad y ayudar a mantener vivos los negocios locales. Además, los restaurantes locales a menudo utilizan ingredientes frescos y de alta calidad procedentes de productores locales, lo que significa que la comida es más sabrosa y saludable. Además, el personal en un restaurante local suele ser más amable y atento, ya que está comprometido con su comunidad y ofrecer una excelente experiencia a sus clientes. Finalmente, visitar un restaurante local y paisa puede ser una excelente oportunidad para probar la deliciosa comida y la cultura de la región.
                 </p>
 
                 <ListGroup className="mt-4">
-                  <ListGroupItem className="border-0 ps-0">
-                    <p className=" choose__us-title d-flex align-items-center gap-2 ">
-                      <i class="ri-checkbox-circle-line"></i> Fresh and tasty
-                      foods
-                    </p>
-                    <p className="choose__us-desc">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Quia, voluptatibus.
-                    </p>
-                  </ListGroupItem>
+                
 
                   <ListGroupItem className="border-0 ps-0">
                     <p className="choose__us-title d-flex align-items-center gap-2 ">
-                      <i class="ri-checkbox-circle-line"></i> Quality support
+                      <i class="ri-checkbox-circle-line"></i>Mezclas que llenan el alma{" "}
                     </p>
                     <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
-                    </p>
-                  </ListGroupItem>
-
-                  <ListGroupItem className="border-0 ps-0">
-                    <p className="choose__us-title d-flex align-items-center gap-2 ">
-                      <i class="ri-checkbox-circle-line"></i>Order from any
-                      location{" "}
-                    </p>
-                    <p className="choose__us-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Qui, earum.
+                      Nustrea cocina mezcla sazon, tadicion y buenos ingredientes.
                     </p>
                   </ListGroupItem>
                 </ListGroup>
@@ -310,12 +284,11 @@ const Home = () => {
               <div className="testimonial ">
                 <h5 className="testimonial__subtitle mb-4">Testimonios</h5>
                 <h2 className="testimonial__title mb-4">
-                  ¿Que estan <span>customers</span> diciendo de nosotros?
+                  ¿Que estan <span>opinan</span> de nosotros?
                 </h2>
                 <p className="testimonial__desc">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Distinctio quasi qui minus quos sit perspiciatis inventore
-                  quis provident placeat fugiat!
+                  Tu opinion siempre es importante, es por eso que la tenemos en cuenta al momento de mejorar nuestros servicio, muchas gracias por preferirnos
+
                 </p>
 
                 <TestimonialSlider />

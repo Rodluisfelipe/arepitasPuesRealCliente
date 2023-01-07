@@ -22,10 +22,7 @@ const TestimonialSlider = () => {
     <Slider {...settings}>
       <div>
         <p className="review__text">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          atque, quam minus totam maiores laborum! Impedit consectetur illum
-          aliquid odit. Odit dolore ipsum quod debitis nostrum necessitatibus
-          quis dolorem quas!"
+        "No puedo decir lo suficiente cosas buenas sobre este restaurante paisa. Desde la comida hasta el ambiente, todo es simplemente perfecto. Me encanta la variedad de opciones de platos y el servicio siempre es excepcional. ¡Es sin duda mi restaurante favorito en la ciudad!"
         </p>
         <div className=" slider__content d-flex align-items-center gap-3 ">
           <img src={ava01} alt="avatar" className=" rounded" />
@@ -34,10 +31,7 @@ const TestimonialSlider = () => {
       </div>
       <div>
         <p className="review__text">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          atque, quam minus totam maiores laborum! Impedit consectetur illum
-          aliquid odit. Odit dolore ipsum quod debitis nostrum necessitatibus
-          quis dolorem quas!"
+        "He estado yendo a este restaurante paisa durante años y siempre me siento como en casa. Los platos son siempre consistentemente deliciosos y el personal es tan amable y atento. ¡Sin duda es mi lugar favorito para comer en la ciudad!"
         </p>
         <div className="slider__content d-flex align-items-center gap-3 ">
           <img src={ava02} alt="avatar" className=" rounded" />
@@ -46,10 +40,7 @@ const TestimonialSlider = () => {
       </div>
       <div>
         <p className="review__text">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          atque, quam minus totam maiores laborum! Impedit consectetur illum
-          aliquid odit. Odit dolore ipsum quod debitis nostrum necessitatibus
-          quis dolorem quas!"
+        "Fui a este restaurante por primera vez el fin de semana pasado y me sorprendió gratamente. La comida era increíblemente deliciosa y el servicio fue excelente. Definitivamente volveré a visitar este lugar."
         </p>
         <div className="slider__content d-flex align-items-center gap-3 ">
           <img src={ava03} alt="avatar" className=" rounded" />

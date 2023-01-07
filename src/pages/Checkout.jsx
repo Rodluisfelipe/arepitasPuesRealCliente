@@ -106,8 +106,8 @@ const Checkout = () => {
   }
 
   return (
-    <Helmet title="Checkout">
-      <CommonSection title="Checkout" />
+    <Helmet title="Zona de Confirmacion">
+      <CommonSection title="Pago" />
       <section>
         <Container>
           <Row>
