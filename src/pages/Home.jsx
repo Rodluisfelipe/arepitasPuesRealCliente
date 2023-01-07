@@ -201,7 +201,7 @@ const Home = () => {
                   } `}
                   onClick={() => setCategory("ALL")}
                 >
-                  All
+                  Todos
                 </button>
                 <button
                   className={`d-flex align-items-center gap-2 ${
@@ -210,7 +210,7 @@ const Home = () => {
                   onClick={() => setCategory("BURGER")}
                 >
                   <img src={foodCategoryImg01} alt="" />
-                  Burger
+                  Arepas
                 </button>
 
                 <button
@@ -220,7 +220,7 @@ const Home = () => {
                   onClick={() => setCategory("PIZZA")}
                 >
                   <img src={foodCategoryImg02} alt="" />
-                  Pizza
+                  Hamburguesas
                 </button>
 
                 <button
@@ -230,7 +230,7 @@ const Home = () => {
                   onClick={() => setCategory("BREAD")}
                 >
                   <img src={foodCategoryImg03} alt="" />
-                  Bread
+                  Porciones
                 </button>
               </div>
             </Col>

@@ -11,7 +11,7 @@ import "../../../styles/category.css";
 
 const categoryData = [
   {
-    display: "Fastfood",
+    display: "Arepas Rellenas",
     imgUrl: categoryImg01,
   },
   {
