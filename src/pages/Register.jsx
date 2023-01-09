@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+/*import React, { useRef } from "react";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/common-section/CommonSection";
 import { Container, Row, Col } from "reactstrap";
@@ -58,4 +58,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Register;*/

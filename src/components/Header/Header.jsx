@@ -1,5 +1,15 @@
+//  This is the header component
+//  It contains the logo, navigation links, cart icon and mobile menu icon
+//  It also contains the mobile menu
+//  It is a functional component with ES6 arrow function
+//  It uses reactstrap for the layout
+//  It uses react-router-dom for navigation
+//  It uses react-redux for state management
+//  It uses react hooks for state management
+//  It uses react hooks for DOM manipulation
+//  It uses react hooks for event handling
+//  It uses react hooks for side effects
 import React, { useRef, useEffect } from "react";
-
 import { Container } from "reactstrap";
 import logo from "../../assets/images/res-logo.png";
 import { NavLink, Link } from "react-router-dom";
@@ -27,7 +37,8 @@ const nav__links = [
     path: "/contact",
   },
 ];
-
+//  Header Component 
+//  Functional Component with ES6 Arrow Function
 const Header = () => {
   const menuRef = useRef(null);
   const headerRef = useRef(null);
@@ -80,16 +91,12 @@ const Header = () => {
               ))}
             </div>
           </div>
-
           {/* ======== nav right icons ========= */}
           <div className="nav__right d-flex align-items-center gap-4">
             <span className="cart__icon" onClick={toggleCart}>
               <i class="ri-shopping-basket-line"></i>
               <span className="cart__badge">{totalQuantity}</span>
             </span>
-
-            
-
             <span className="mobile__menu" onClick={toggleMenu}>
               <i class="ri-menu-line"></i>
             </span>
@@ -99,5 +106,5 @@ const Header = () => {
     </header>
   );
 };
-
+//  Export Header Component
 export default Header;

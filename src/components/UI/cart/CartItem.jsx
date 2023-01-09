@@ -1,16 +1,15 @@
 import React from "react";
 import { ListGroupItem } from "reactstrap";
-
 import "../../../styles/cart-item.css";
-
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../../store/shopping-cart/cartSlice";
 
+//  CartItem Component
+//  Functional Component with ES6 Arrow Function
 const CartItem = ({ item }) => {
   const { id, title, price, image01, quantity, totalPrice } = item;
 
   const dispatch = useDispatch();
-
   const incrementItem = () => {
     dispatch(
       cartActions.addItem({
@@ -21,15 +20,18 @@ const CartItem = ({ item }) => {
       })
     );
   };
+// CartItem Component
+//  Functional Component with ES6 Arrow Function
 
+//removeItem
   const decreaseItem = () => {
     dispatch(cartActions.removeItem(id));
   };
-
+//deleteItem
   const deleteItem = () => {
     dispatch(cartActions.deleteItem(id));
   };
-
+// return JSX with CartItem Component and add cards with props from CartItem  for print resume
   return (
     <ListGroupItem className="border-0 cart__item">
       <div className="cart__item-info d-flex gap-2">
@@ -60,5 +62,5 @@ const CartItem = ({ item }) => {
     </ListGroupItem>
   );
 };
-
+// export CartItem Component
 export default CartItem;

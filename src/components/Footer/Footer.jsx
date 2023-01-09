@@ -1,3 +1,4 @@
+// Footer Component
 import React from "react";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import logo from "../../assets/images/res-logo.png";
@@ -5,8 +6,12 @@ import logo from "../../assets/images/res-logo.png";
 import "../../styles/footer.css";
 
 import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
+// Footer Component (Functional Component 
+// with ES6 Arrow Function
 const Footer = () => {
+  // Return JSX (HTML)
   return (
     <footer className="footer">
       <Container>
@@ -20,6 +25,8 @@ const Footer = () => {
               </p>
             </div>
           </Col>
+          // Footer Component Functional Component
+          // with ES6 Arrow Function
 
           <Col lg="3" md="4" sm="6">
             <h5 className="footer__title">Horarios de Atencion</h5>
@@ -43,7 +50,7 @@ const Footer = () => {
               </ListGroupItem>
 
               <ListGroupItem className=" delivery__time-item border-0 ps-0">
-                <span>Gmail: ArpitasPues@gmail.com</span>
+                <span>Gmail: ArepitasPues@gmail.com</span>
               </ListGroupItem>
             </ListGroup>
           </Col>
@@ -72,20 +79,20 @@ const Footer = () => {
               <p className="m-0">Siguenos: </p>
               <span>
                 {" "}
-                <Link to="https://www.facebook.com/muhib160">
+                <Link to="https://www.facebook.com/">
                   <i class="ri-facebook-line"></i>
                 </Link>{" "}
               </span>
 
               <span>
-                <Link to="https://github.com/muhib160">
+                <Link to="https://github.com/rodluisfelipe">
                   <i class="ri-github-line"></i>
                 </Link>
               </span>
 
               <span>
                 {" "}
-                <Link to=" https://www.youtube.com/c/MuhibsTechDiary">
+                <Link to=" https://www.youtube.com/">
                   <i class="ri-youtube-line"></i>
                 </Link>{" "}
               </span>
@@ -103,5 +110,5 @@ const Footer = () => {
     </footer>
   );
 };
-
+//  Export Footer Component
 export default Footer;

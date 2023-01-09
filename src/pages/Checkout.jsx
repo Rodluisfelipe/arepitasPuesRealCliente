@@ -5,7 +5,7 @@ import CommonSection from "../components/UI/common-section/CommonSection";
 import Helmet from "../components/Helmet/Helmet";
 import "../styles/checkout.css";
 
-
+//function for new releases checkout
 const Checkout = () => {
   const [enterName, setEnterName] = useState("");
   const [enterEmail, setEnterEmail] = useState("");
@@ -34,7 +34,8 @@ const Checkout = () => {
     shippingInfo.push(userShippingAddress);
     console.log(shippingInfo);
   };
-  function finalizarCompra(){
+  //fuction to end buy and checkout with whatsapp api
+  function endBuy(){
       let perfil = JSON.parse(localStorage.getItem('cartItems'))
       let productosParaWsp = perfil
       let arraylength = productosParaWsp.length
@@ -59,14 +60,7 @@ const Checkout = () => {
     'https://api.whatsapp.com/send?phone=573204831474&text=%0A%20📍%20*Envíanos tu nombre, tu ubicación o dirección y tu método de pago en un mensaje para coordinar tu entrega.*%0A%20*Gracias por preferirnos❤️*%0A'+'%0A👋%20Hola%2C%20vengo%20de%20*Arepitas%20Pues*%0A🗓'+(date)+'⏰%20'+(time)+'%0A%0A*Tipo%20de%20servicio%3A%20Domicilio*%0A'+'*💲%20Costos*%0ACosto%20de%20entrega%3A%20Monto%20por%20confirmar%0A*Total%20a%20pagar%3A%20%24%20'+totalAmount +'*'+ '%0A%20⚠️%20*Pendiente costo de envio*'+'%0A*📝%20Pedido*%0A%0A-%20*x'+
     cadena 
   }
-
-
-
-
-    
-    
-  
-
+//checkout form with reactstrap and react hooks confirmed area
   return (
     <Helmet title="Zona de Confirmacion">
       <CommonSection title="Pago" />
@@ -88,7 +82,7 @@ const Checkout = () => {
                     Total: <span>${totalAmount}</span>
                   </h5>
                   <br />
-                  <button onClick={finalizarCompra} className="addTOCart__btn whatsapp-btn " type="submit" >
+                  <button onClick={endBuy} className="addTOCart__btn whatsapp-btn " type="submit" >
                   Finalizar Compra por WhatsApp
                 </button>
                 </div>
