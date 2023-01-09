@@ -12,8 +12,8 @@
 - Product page
 - Cart and checkout page
 - Contact page
-- Login and Register page
-- Awesome modern minimalist UI
+- Login and Register page (cooming soon)
+- Awesome modern minimalist 
 
 ### Technologies Used:
 
